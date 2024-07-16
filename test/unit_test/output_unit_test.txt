@@ -1,0 +1,19 @@
+##teamcity[enteredTheMatrix timestamp='2024-07-16T16:32:36.634']
+Launching unittests with arguments python -m unittest /Users/polinagorokhova/praktika2024/app.py in /Users/polinagorokhova/praktika2024
+
+##teamcity[testCount timestamp='2024-07-16T16:32:41.164' count='3']
+##teamcity[testSuiteStarted timestamp='2024-07-16T16:32:41.167' locationHint='python</Users/polinagorokhova/praktika2024>://app' name='app' nodeId='1' parentNodeId='0']
+##teamcity[testSuiteStarted timestamp='2024-07-16T16:32:41.167' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination' name='TestUniqueCombination' nodeId='2' parentNodeId='1']
+##teamcity[testStarted timestamp='2024-07-16T16:32:41.167' captureStandardOutput='true' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_is_unique_combination' name='test_is_unique_combination' nodeId='3' parentNodeId='2']
+##teamcity[testFinished timestamp='2024-07-16T16:32:41.168' duration='2' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_is_unique_combination' name='test_is_unique_combination' nodeId='3' parentNodeId='2']
+##teamcity[testStarted timestamp='2024-07-16T16:32:41.168' captureStandardOutput='true' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_main' name='test_main' nodeId='4' parentNodeId='2']
+##teamcity[testFinished timestamp='2024-07-16T16:32:41.236' duration='68' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_main' name='test_main' nodeId='4' parentNodeId='2']
+##teamcity[testStarted timestamp='2024-07-16T16:32:41.237' captureStandardOutput='true' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_minimal_cover_algorithm' name='test_minimal_cover_algorithm' nodeId='5' parentNodeId='2']
+##teamcity[testFinished timestamp='2024-07-16T16:32:41.238' duration='1' locationHint='python</Users/polinagorokhova/praktika2024>://app.TestUniqueCombination.test_minimal_cover_algorithm' name='test_minimal_cover_algorithm' nodeId='5' parentNodeId='2']
+##teamcity[testSuiteFinished timestamp='2024-07-16T16:32:41.238' name='app.TestUniqueCombination' nodeId='2' parentNodeId='1']
+##teamcity[testSuiteFinished timestamp='2024-07-16T16:32:41.239' name='app' nodeId='1' parentNodeId='0']
+
+
+Ran 3 tests in 0.074s
+
+OK
